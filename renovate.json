@@ -2,5 +2,6 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["github>kristof-mattei/renovate-config"],
     "forkProcessing": "enabled",
+    "postUpdateOptions": [],
     "packageRules": [{ "matchPackageNames": ["!pnpm"], "postUpdateOptions": ["pnpmDedupe"] }]
 }
