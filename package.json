@@ -4,7 +4,7 @@
     "main": "dist/index.js",
     "license": "MIT",
     "type": "module",
-    "packageManager": "pnpm@9.14.2+sha256.06e65a4965baff6d6097f9c8f75c35f6d420974dbc03d775009056a69edfd271",
+    "packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184",
     "scripts": {
         "debug": "vite-node --inspect=0.0.0.0:9229 src/index.ts",
         "debug:watch": "vite-node --inspect=0.0.0.0:9229 --watch src/index.ts",
@@ -21,7 +21,8 @@
         "prepare": "husky"
     },
     "engines": {
-        "node": "22.17.0"
+        "node": "22.17.0",
+        "pnpm": "10.12.4"
     },
     "dependencies": {
         "express": "5.1.0",
