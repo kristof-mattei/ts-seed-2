@@ -5,7 +5,7 @@
     "dependencyDashboard": true,
     "dependencyDashboardAutoclose": true,
     "extends": [
-        "config:base",
+        "config:recommended",
         ":maintainLockFilesWeekly",
         ":rebaseStalePrs",
         ":semanticCommits",
@@ -22,7 +22,10 @@
         "automerge": true
     },
     "packageRules": [
-        { "matchPackageNames": ["!pnpm"], "postUpdateOptions": ["pnpmDedupe"] },
+        {
+            "matchPackageNames": ["!pnpm"],
+            "postUpdateOptions": ["pnpmDedupe"]
+        },
         {
             "automerge": true,
             "description": "Automatically merges minor and patch-level updates",
