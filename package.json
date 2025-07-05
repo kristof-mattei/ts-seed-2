@@ -7,6 +7,6 @@
   "packageManager": "pnpm@10.12.4",
   "scripts": {},
   "engines": {
-    "node": "22.15.0"
+    "node": ">=22.15.0"
   }
 }
